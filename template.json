@@ -1,11 +1,11 @@
 {
   "package": {
     "dependencies": {
-      "@solana/wallet-adapter-base": "^0.9.18",
-      "@solana/wallet-adapter-react": "^0.15.22",
-      "@solana/wallet-adapter-react-ui": "^0.9.20",
-      "@solana/wallet-adapter-wallets": "^0.19.5",
-      "@solana/web3.js": "^1.66.2",
+      "@solana/wallet-adapter-base": "^0.9.22",
+      "@solana/wallet-adapter-react": "^0.15.32",
+      "@solana/wallet-adapter-react-ui": "^0.9.31",
+      "@solana/wallet-adapter-wallets": "^0.19.16",
+      "@solana/web3.js": "^1.77.3",
       "@testing-library/jest-dom": "^5.16.5",
       "@testing-library/react": "^13.4.0",
       "@testing-library/user-event": "^14.4.3",
@@ -17,17 +17,19 @@
       "buffer": "^6.0.3",
       "constants-browserify": "^1.0.0",
       "crypto-browserify": "^3.12.0",
+      "https-browserify": "^1.0.0",
       "path-browserify": "^1.0.1",
       "process": "^0.11.10",
       "react-app-rewired": "^2.2.1",
       "react": "^18.2.0",
-      "react-app-rewired": "^2.2.1",
       "react-dom": "^18.2.0",
       "react-scripts": "^5.0.1",
       "stream-browserify": "^3.0.0",
+      "stream-http": "^3.2.0",
       "typescript": "^4.8.4",
       "url": "^0.11.0",
-      "web-vitals": "^3.0.2"
+      "web-vitals": "^3.0.2",
+      "zlib": "^1.0.5"
     },
     "scripts": {
       "start": "react-app-rewired start",
